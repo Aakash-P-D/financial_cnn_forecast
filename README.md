@@ -78,3 +78,45 @@ This plot shows the comparison between **predicted** and **actual** stock prices
 **Example:**  
 
 ![Prediction](outputs/prediction.png)
+
+---
+
+## 🔹 How to Run
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/yourusername/financial-cnn-forecast.git
+cd financial-cnn-forecast
+```
+2. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+```
+3. **Open the notebook in Google Colab or Jupyter:**
+```bash 
+jupyter notebook financial_cnn_forecasting.ipynb
+```
+4. **Run all cells** → Outputs (images, predictions) will be generated in the outputs/ folder.
+
+5. 🔹 Data Sources
+
+The financial time series data can be collected from:
+
+Yahoo Finance: https://finance.yahoo.com
+NSE India: https://www.nseindia.com
+BSE India: https://www.bseindia.com
+RBI Database: https://www.rbi.org.in
+Kaggle: https://www.kaggle.com
+🔹 References
+Y. Zhang and C. Aggarwal, “Stock Market Prediction Using Deep Learning,” IEEE Access
+A. Tsantekidis et al., “Deep Learning for Financial Time Series Forecasting”
+S. Hochreiter and J. Schmidhuber, “Long Short-Term Memory,” Neural Computation, 1997
+A. Borovykh et al., “Conditional Time Series Forecasting with CNNs”
+🔹 Expected Outcome
+Financial time series can be analyzed as signals
+Spectrograms reveal hidden patterns in stock price data
+CNN models can learn useful representations from spectrograms to predict future stock prices
+Generated images:
+outputs/spectrogram.png → shows time-frequency representation
+outputs/prediction.png → shows predicted vs actual stock prices
