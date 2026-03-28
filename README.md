@@ -6,6 +6,13 @@
   <img src="https://img.shields.io/badge/TensorFlow-CNN-orange"/>
 </p>
 
+## 🔹 Run on Google Colab
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Aakash-P-D/financial_cnn_forecast/blob/main/financial_cnn_forecasting.ipynb)
+
+____
+
+
 ## 📑 Table of Contents
 - [Author](#-author)
 - [Project Overview](#-project-overview)
@@ -267,3 +274,4 @@ This project was developed for academic and educational purposes, but is free to
 
 Contributions are welcome! Feel free to fork this repository and submit a pull request.
   
+fff
